@@ -56,3 +56,16 @@ body{
             }
         }
     }
+    @mixin boton {
+        
+        background-color: $color2;
+        color: $color1;
+        font-family: $fuente;
+        border-radius: 50px;
+        padding: 20px 3px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
